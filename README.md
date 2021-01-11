@@ -27,3 +27,4 @@ $ yarn dev
 ```
 
 This will open a browser window with your local changes. Try to edit somehing within `./src/`. Webpack will detect all changesas soon as you hit save, bundles everything together and will reload your browser to present the latest changes.
+
