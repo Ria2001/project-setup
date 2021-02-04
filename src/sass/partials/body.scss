@@ -1,0 +1,35 @@
+.m-body {
+    align-items: left;
+    padding: $unit-XS;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+    .m-body__navigation {
+      font-size: $fontsize-S;
+      padding: $unit-XS;
+      margin-top: $unit-M;
+      margin-left: $unit-standard;
+      display: none;
+  
+      ul {
+        li {
+          margin-bottom: $unit-XL;
+  
+          a {
+            transition: all 0.2s;
+            color: $color-darkblue;
+            text-decoration: none;
+  
+            &:hover {
+              //color: $color-darkbluelight;
+              //text-decoration: underline;
+            }
+          }
+
+        }
+      }
+  
+      &.visible {
+        display: block;
+      }
+    }
+}

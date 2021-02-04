@@ -6,9 +6,21 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <details>
+    <!--<details>
       <summary>Example Partial</summary>
       <%= require('html-loader!./partials/example.html') %>
+    </details>-->
+    <details open> 
+      <summary>Header</summary>
+      <%= require('html-loader!./partials/header.html') %>
+    </details>
+    <details open> 
+      <summary>Body</summary>
+      <%= require('html-loader!./partials/body.html') %>
+    </details>
+    <details open> 
+      <summary>Footer</summary>
+      <%= require('html-loader!./partials/footer.html') %>
     </details>
   </body>
 </html>

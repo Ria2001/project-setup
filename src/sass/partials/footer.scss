@@ -1,0 +1,42 @@
+.m-footer {
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: $unit-XS;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: $color-darkblue;
+  
+    .m-footer__navigation {
+      font-size: $fontsize-XS;
+      padding: $unit-L;
+      //display: none;
+  
+      ul {
+        li {
+          display: inline-block;
+          margin-right: $unit-S;
+  
+          a {
+            transition: all 0.2s;
+            color: $color-darkblue;
+            text-decoration: none;
+          }
+            }
+          &.active {
+            a {
+              color: $color-darkblue;
+              //text-decoration: underline;
+            }
+          }
+          &.backtotop {
+              a:hover {
+                  color: $color-darkbluelight;
+              }
+          }
+        }
+      }
+  
+      &.visible {
+        display: block;
+      }
+    }

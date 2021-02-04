@@ -1,0 +1,57 @@
+.m-header {
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  padding: $unit-XS;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  //color: $color-darkblue;
+
+  .m-header__logo {
+    padding: $unit-XS;
+    font-weight: normal;
+    color: $color-darkblue;
+    font-size: $fontsize-XL;
+    margin-top: $unit-S;
+    margin-bottom: $unit-S; 
+  }
+
+  .m-header__navigation {
+    font-size: $fontsize-M;
+    padding: $unit-XS;
+    display: none;
+
+    ul {
+      li {
+        display: inline-block;
+        margin-right: $unit-M;
+
+        a {
+          transition: all 0.2s;
+          color: $color-darkblue;
+          text-decoration: none;
+
+          &:hover {
+            color: $color-darkbluelight;
+            //text-decoration: underline;
+          }
+        }
+
+        &.active {
+          a {
+           background-image: url("images/insta.png");
+           height: 24px;
+           background-size: 24px 24px;
+          background-repeat: no-repeat;
+          color: transparent;
+            //color: $color-darkblue; //Instagram 
+            //text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    &.visible {
+      display: block;
+    }
+  }
+}
