@@ -10,13 +10,21 @@
     padding: $unit-XS;
     font-weight: normal;
     color: $color-darkblue;
-    font-size: $fontsize-XL;
+    font-size: $fontsize-L;
     margin-top: $unit-S;
     margin-bottom: $unit-S; 
   }
 
+  &.active {
+    a {
+     background-image: url("images/logo.png");
+     height: 24px;
+     background-size: 35px 55px;
+    background-repeat: no-repeat;
+    color: transparent;
+
   .m-header__navigation {
-    font-size: $fontsize-M;
+    font-size: $fontsize-S;
     padding: $unit-XS;
     display: none;
 

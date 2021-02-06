@@ -24,14 +24,9 @@
             }
           &.active {
             a {
-              color: $color-darkblue;
+              //color: $color-darkblue;
               //text-decoration: underline;
             }
-          }
-          &.backtotop {
-              a:hover {
-                  color: $color-darkbluelight;
-              }
           }
         }
       }
@@ -40,3 +35,4 @@
         display: block;
       }
     }
+  
