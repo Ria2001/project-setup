@@ -1,10 +1,14 @@
 .m-footer {
     align-items: center;
     text-align: center;
+    background-color: $color-beigedark;
     box-sizing: border-box;
     padding: $unit-XS;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: $color-darkblue;
+    //color: $color-darkblue;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: $color-beigedark;
   
     .m-footer__navigation {
       font-size: $fontsize-XS;
@@ -15,24 +19,12 @@
         li {
           display: inline-block;
           margin-right: $unit-S;
-  
-          a {
-            transition: all 0.2s;
-            color: $color-darkblue;
-            text-decoration: none;
-          }
-            }
-          &.active {
-            a {
-              //color: $color-darkblue;
-              //text-decoration: underline;
-            }
           }
         }
-      }
+      
   
       &.visible {
         display: block;
       }
     }
-  
+}

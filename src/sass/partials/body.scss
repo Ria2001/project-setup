@@ -1,8 +1,15 @@
+.m-body {
+  background-color: $color-beige;
+  text-align: center;
+}
+
 img {
+  background-color: $color-white;
   width: 315px;
-  height: 445,5px;
-  margin-left: $unit-XL;
-  margin-right: $unit-XL;
+  height: 445px;
+  margin-left: $unit-L;
+  margin-right: $unit-L;
   margin-top: $unit-M;
   margin-bottom: $unit-XL; 
+
 }
