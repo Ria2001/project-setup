@@ -56,11 +56,16 @@ module.exports = {
       template: "src/index.html",
       filename: "index.html",
     }),
+    new HtmlWebpackPlugin({
+      title: "About Contact",
+      template: "src/aboutcontact.html",
+      filename: "aboutcontact.html",
+    }),
     new CopyWebpackPlugin({
       patterns:[{
         from: 'src/images', to: 'images'
       }]
-    })
+    }),
   ],
   devServer: {
     contentBase: path.join(__dirname, "dist"),

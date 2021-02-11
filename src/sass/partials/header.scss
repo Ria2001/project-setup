@@ -1,7 +1,7 @@
 .m-header {
   align-items: center;
   text-align: center;
-  background-color: $color-beigedark;
+  background-color: $color-beige;
   box-sizing: border-box;
   padding: $unit-XS;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -9,6 +9,7 @@
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: $color-beigedark;
+  margin-top: -16px;
 
   .m-header__logo {
     align-items: center;

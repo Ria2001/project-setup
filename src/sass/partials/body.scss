@@ -1,15 +1,89 @@
 .m-body {
-  background-color: $color-beige;
+  background-color: $color-beigedark;
   text-align: center;
+}
+
+
+.listing-container {
+  width: 2005px;
+  position: relative;
 }
 
 img {
   background-color: $color-white;
   width: 315px;
-  height: 445px;
+  height: 445;
   margin-left: $unit-L;
   margin-right: $unit-L;
   margin-top: $unit-M;
-  margin-bottom: $unit-XL; 
-
+  margin-bottom: $unit-M; 
 }
+
+.container {
+  margin-left: $unit-L;
+  margin-right: $unit-L;
+  margin-top: $unit-M;
+  margin-bottom: $unit-M; 
+  display: inline-block;
+    position: relative;
+    width: 315px;
+    height: 445px;
+  }
+  
+  .image {
+    display: block;
+    max-width: 100%;
+    height: 445px;
+  }
+  
+  .overlay {
+    position: absolute;
+    margin-top: 49px;
+    margin-left: 98px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 445px;
+    width: 315px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:  #6C75A4;
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.8;
+  }
+  
+  .text-overlay {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .contact-body {
+    background-color: $color-beigedark;
+  }
+
+  .test-logo {
+    display: block;
+    align-items: center;
+    margin-top: $unit-L;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: transparent;
+  }
+
+  .text {
+    width: 300px;
+    margin-top: $unit-S;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: $unit-L;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
