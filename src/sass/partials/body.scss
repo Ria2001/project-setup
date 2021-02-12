@@ -56,6 +56,7 @@ img {
   }
   
   .text-overlay {
+    text-decoration: none;
     color: white;
     font-size: 20px;
     position: absolute;
@@ -79,11 +80,38 @@ img {
   }
 
   .text {
-    width: 300px;
+    width: 400px;
     margin-top: $unit-S;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: $unit-L;
+    margin-bottom: $unit-M;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 18px;
   }
+  
+  h2 {
+    font-size: $unit-S;
+    font-weight: bold;
+  }
+
+  h4 {
+    font-size: $unit-S;
+    font-weight: bold;
+  }
+
+  h6 {
+    font-size: $unit-S;
+    font-weight: bold;
+  }
+
+  h8 {
+    font-size: $unit-S;
+    font-weight: bold;
+  }
+
+  h10 {
+    font-size: $unit-S;
+    font-weight: bold;
+  }
+
+ 

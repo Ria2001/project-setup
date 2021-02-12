@@ -61,6 +61,11 @@ module.exports = {
       template: "src/aboutcontact.html",
       filename: "aboutcontact.html",
     }),
+    new HtmlWebpackPlugin({
+      title: "Illu",
+      template: "src/illu.html",
+      filename: "illu.html",
+    }),
     new CopyWebpackPlugin({
       patterns:[{
         from: 'src/images', to: 'images'
