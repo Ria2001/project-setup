@@ -66,6 +66,31 @@ module.exports = {
       template: "src/illu.html",
       filename: "illu.html",
     }),
+    new HtmlWebpackPlugin({
+      title: "Illu 2",
+      template: "src/illu2.html",
+      filename: "illu2.html",
+    }),
+    new HtmlWebpackPlugin({
+      title: "Illu 3",
+      template: "src/illu3.html",
+      filename: "illu3.html",
+    }),
+    new HtmlWebpackPlugin({
+      title: "Illu 4",
+      template: "src/illu4.html",
+      filename: "illu4.html",
+    }),
+    new HtmlWebpackPlugin({
+      title: "Illu 5",
+      template: "src/illu5.html",
+      filename: "illu5.html",
+    }),
+    new HtmlWebpackPlugin({
+      title: "Illu 6",
+      template: "src/illu6.html",
+      filename: "illu6.html",
+    }),
     new CopyWebpackPlugin({
       patterns:[{
         from: 'src/images', to: 'images'
