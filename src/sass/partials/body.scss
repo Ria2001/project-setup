@@ -88,6 +88,7 @@ img {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: $unit-M;
+    color: $color-darkblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
   }
@@ -112,7 +113,8 @@ img {
     font-weight: bold;
   }
 
-  h10 {
+  .h10 {
+    color: $color-darkbluelight;
     font-size: $unit-S;
     font-weight: bold;
   }
