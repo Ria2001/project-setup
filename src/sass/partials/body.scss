@@ -1,9 +1,10 @@
+//body als ganzes
 .m-body {
   background-color: $color-beigedark;
   text-align: center;
 }
 
-
+//container für die Bilder
 .listing-container {
   width: 2005px;
   position: relative;
@@ -19,6 +20,7 @@ img {
   margin-bottom: $unit-M; 
 }
 
+//Einstellungen für das Overlay
 .container {
   margin-left: $unit-L;
   margin-right: $unit-L;
@@ -66,6 +68,7 @@ img {
     -ms-transform: translate(-50%, -50%);
   }
 
+  //About & Contact Seite 
   .contact-body {
     background-color: $color-beigedark;
   }
@@ -119,6 +122,7 @@ img {
     font-weight: bold;
   }
 
+  //Titel der Bilder 
   .test-text {
     width: 200px;
     margin-top: $unit-L;
@@ -142,7 +146,7 @@ img {
   }
 
   .test-text3 {
-    width: 100px;
+    width: 95px;
     margin-top: $unit-L;
     margin-right: auto;
     margin-left: auto;
@@ -153,7 +157,7 @@ img {
   }
 
   .test-text4 {
-    width: 100px;
+    width: 125px;
     margin-top: $unit-L;
     margin-right: auto;
     margin-left: auto;
@@ -163,28 +167,7 @@ img {
     font-size: 18px;
   }
 
-  .test-text5 {
-    width: 100px;
-    margin-top: $unit-L;
-    margin-right: auto;
-    margin-left: auto;
-    color: $color-darkblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 18px;
-  }
-
-  .test-text6 {
-    width: 100px;
-    margin-top: $unit-L;
-    margin-right: auto;
-    margin-left: auto;
-    color: $color-darkblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 18px;
-  }
-
+  //Nah-Ansicht der Bilder 
   .illu-body {
     background-color: $color-beigedark;
   }
@@ -269,6 +252,7 @@ img {
   height: 891px;
   }
 
+  //Pfeile unter den Bildern 
   .navi {
     width: 50px;
     margin-top: $unit-S;
